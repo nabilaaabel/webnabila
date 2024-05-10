@@ -11,7 +11,7 @@
 <body>
     <header>
         <header>
-            <?php include("../template/navbar.php"); ?>
+            <?php include("../template/navbar_detail.php"); ?>
         </header>
         <div class="product">
             <img src="../image/bama.jpg" alt="Product Image">
