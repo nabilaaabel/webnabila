@@ -11,16 +11,8 @@
 
 <body>
     <header>
-        <nav>
-            <label class="logo">Honest Chocolate</label>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="menu.php">Menu</a></li>
-                <li><a href="admin/login.php">Service</a></li>
-                <li><a href="contact.php">Contact & Order</a></li>
-            </ul>
-        </nav>
+        <!-- ambil navbar dari folder template -->
+        <?php include('template/navbar.php') ?>
     </header>
     <div class="content">
         <h1>Honest Chocolate <br><span> Best Chocolate in Banyuwangi</span></br></h1>

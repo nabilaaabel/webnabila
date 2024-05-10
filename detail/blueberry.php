@@ -8,17 +8,9 @@
 </head>
 <body>
     <header>
-        <nav>
-        <label class="logo">HonestChocolate</label>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="menu.php">Menu</a></li>
-                    <li><a href="admin/login.php">Service</a></li>
-                    <li><a href="contact.php">Contact & Order</a></li>
-                </ul>
-    </nav>
-   
+        <header>
+            <?php include("../template/navbar.php"); ?>
+        </header>
         <div class="product">
             <img src="../image/cobu.jpg" alt="Product Image">
             <div class="product-info">
